@@ -1,5 +1,4 @@
 body {
-    display: flex;
     flex-direction: column;
 }
 
@@ -23,8 +22,10 @@ nav a {
 
 nav a:hover {
     color: brown;
+    padding: 5px 5px;
 }
 
 footer {
+    align-self: flex-end;
     padding: 10px;
 }
